@@ -1,7 +1,7 @@
-node.js client module for the eXist-db Native XML Database
+node.js Client Module for the eXist-db Native XML Database
 ==========================================================
 
-This is a client module to access an eXist-db XML database instance from node.js.
+This is a client module to access an eXist-db XML database (http://exist-db.org) instance from node.js.
 
 API
 ---
