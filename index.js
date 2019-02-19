@@ -81,6 +81,10 @@ Connection.prototype.store = function(file, collection /* , targetName, callback
                 res.on("error", function(e) {
                     callback(e);
                 });
+                res.on("data", function(data) {
+                    // Nothing to do here
+                    // This event is needed otherwise on("end") is never called
+                });        
             });
             is.on("data", function(data) {
                 req.write(data);
